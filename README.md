@@ -1,7 +1,7 @@
 # Local AWS Serverless jumpstart
 This reporsitory is a template with all necessary documentation and resources to enable a team to jumpstart their Serverless journey in AWS. It is packed with AWS's Lambda emulator (RIE) and is ready for local testing of Lambda in a version controlled manner that can be shared accross teams. 
 
-> PS: AWS has a Serveless Application Model (SAM) CLI toolkit that can be used to perform a lot of the things as done in this repository.. But, SAM has a steep learning curve and dependency with docker versions.. This repository on the other hand, even though requires docker to operate doesn't have any hard contsraints as it doens't interact with AWS CLI tools. 
+> PS: AWS has a Serveless Application Model (SAM) CLI toolkit that can be used to perform a lot of the things as done in this repository.. But, SAM has a steep learning curve and dependency with docker versions.. This repository on the other hand, even though requires docker to operate doesn't have any hard contsraints as it doens't interact with AWS CLI tools. Additionally it doesn't have a complex set of commands for testing local lambda environments as in a widely used Open Source tool called [docker-lambda](https://github.com/lambci/docker-lambda)
 
 ## Overview 
 
